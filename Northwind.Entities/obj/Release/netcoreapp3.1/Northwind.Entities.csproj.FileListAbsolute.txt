@@ -1,0 +1,12 @@
+C:\Users\M3ki\source\repos\Northwind\Northwind.Entities\bin\Release\netcoreapp3.1\Northwind.Entities.deps.json
+C:\Users\M3ki\source\repos\Northwind\Northwind.Entities\bin\Release\netcoreapp3.1\Northwind.Entities.dll
+C:\Users\M3ki\source\repos\Northwind\Northwind.Entities\bin\Release\netcoreapp3.1\Northwind.Entities.pdb
+C:\Users\M3ki\source\repos\Northwind\Northwind.Entities\bin\Release\netcoreapp3.1\NorthwindCore.dll
+C:\Users\M3ki\source\repos\Northwind\Northwind.Entities\bin\Release\netcoreapp3.1\NorthwindCore.pdb
+C:\Users\M3ki\source\repos\Northwind\Northwind.Entities\obj\Release\netcoreapp3.1\Northwind.Entities.csprojAssemblyReference.cache
+C:\Users\M3ki\source\repos\Northwind\Northwind.Entities\obj\Release\netcoreapp3.1\Northwind.Entities.AssemblyInfoInputs.cache
+C:\Users\M3ki\source\repos\Northwind\Northwind.Entities\obj\Release\netcoreapp3.1\Northwind.Entities.AssemblyInfo.cs
+C:\Users\M3ki\source\repos\Northwind\Northwind.Entities\obj\Release\netcoreapp3.1\Northwind.Entities.csproj.CoreCompileInputs.cache
+C:\Users\M3ki\source\repos\Northwind\Northwind.Entities\obj\Release\netcoreapp3.1\Northwind.Entities.csproj.CopyComplete
+C:\Users\M3ki\source\repos\Northwind\Northwind.Entities\obj\Release\netcoreapp3.1\Northwind.Entities.dll
+C:\Users\M3ki\source\repos\Northwind\Northwind.Entities\obj\Release\netcoreapp3.1\Northwind.Entities.pdb

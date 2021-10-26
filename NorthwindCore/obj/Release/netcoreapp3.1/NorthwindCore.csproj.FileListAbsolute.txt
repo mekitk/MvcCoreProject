@@ -1,0 +1,9 @@
+C:\Users\M3ki\source\repos\Northwind\NorthwindCore\bin\Release\netcoreapp3.1\NorthwindCore.deps.json
+C:\Users\M3ki\source\repos\Northwind\NorthwindCore\bin\Release\netcoreapp3.1\NorthwindCore.dll
+C:\Users\M3ki\source\repos\Northwind\NorthwindCore\bin\Release\netcoreapp3.1\NorthwindCore.pdb
+C:\Users\M3ki\source\repos\Northwind\NorthwindCore\obj\Release\netcoreapp3.1\NorthwindCore.AssemblyInfoInputs.cache
+C:\Users\M3ki\source\repos\Northwind\NorthwindCore\obj\Release\netcoreapp3.1\NorthwindCore.AssemblyInfo.cs
+C:\Users\M3ki\source\repos\Northwind\NorthwindCore\obj\Release\netcoreapp3.1\NorthwindCore.csproj.CoreCompileInputs.cache
+C:\Users\M3ki\source\repos\Northwind\NorthwindCore\obj\Release\netcoreapp3.1\NorthwindCore.dll
+C:\Users\M3ki\source\repos\Northwind\NorthwindCore\obj\Release\netcoreapp3.1\NorthwindCore.pdb
+C:\Users\M3ki\source\repos\Northwind\NorthwindCore\obj\Release\netcoreapp3.1\NorthwindCore.csprojAssemblyReference.cache

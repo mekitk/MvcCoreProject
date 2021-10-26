@@ -1,0 +1,71 @@
+﻿@model List<Users>
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+<div class="card card-custom gutter-b example example-compact">
+    <div class="card-header">
+        <h3 class="card-title"></h3>
+        <div class="example-tools justify-content-center">
+            <span class="example-toggle" data-toggle="tooltip" title="View code"></span>
+            <span class="example-copy" data-toggle="tooltip" title="Copy code"></span>
+            </div>
+        </div>
+    </div>
+<div class="dx-viewport p-5">
+    <div class="demo-container">
+        <div id="gridContainer"></div>
+    </div>
+</div>
+
+            @section PageRender
+{
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script>window.jQuery || document.write(decodeURIComponent('%3Cscript src="js/jquery.min.js"%3E%3C/script%3E'))</script>
+                <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/20.1.4/css/dx.common.css" />
+                <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/20.1.4/css/dx.light.css" />
+                <script src="https://cdn3.devexpress.com/jslib/20.1.4/js/dx.all.js"></script>
+                <script type="text/javascript">
+        var viewModel=@Html.Raw(JsonConvert.SerializeObject(Model));
+    $("gridContainer").dxDataGrid({
+        dataSource: viewModel,
+        selection: {
+            mode: "multiple"
+        },
+        showBorders: true,
+        columnAutoWidth: true,
+        showBorders: true,
+        "export": {
+            enable: true,
+            allowExportSelectedData: true
+        },
+        paging: {
+            pageSize: 20
+        },
+        headerFilter: {
+            visible: true,
+            allowSearch: true
+        },
+        columns: [
+            {
+                caption: "Id",
+                dataField: "Id"
+            },
+            {
+                caption: "Kullanıcı Adı",
+                dataField: "UserName"
+            },
+            {
+                caption: "Kayıt Tarihi",
+                dataType: 'date',
+                format: "dd/MM/yyyy HH:mm",
+                dataField: "CreateDate"
+            }
+        ]
+    });
+                </script>
+            });
+              
+            }

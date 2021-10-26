@@ -1,0 +1,31 @@
+@using DevExtremeAspNetCoreApp1.Models
+@using Northwind.Entities.Dto
+<h2 class="content-block">Category-Product Linq Sorgu</h2>
+
+
+
+@(Html.DevExtreme().DataGrid<CategoryDTO>()
+    .ElementAttr(new { @class = "dx-card wide-card" })
+    .DataSource(d => d.Mvc().Controller("Home").LoadAction("GetLinq").Key("CategoryId"))
+    .ShowBorders(false)
+    .FilterRow(f => f.Visible(true))
+    .FocusedRowEnabled(true)
+    .FocusedRowIndex(0)
+    .ColumnAutoWidth(true)
+    .ColumnHidingEnabled(true)
+    .Columns(columns => {
+        columns.AddFor(m => m.CategoryId);
+        columns.AddFor(m => m.CategoryName);
+        columns.AddFor(m => m.Description);
+        columns.AddFor(m => m.ImageList);
+        columns.AddFor(m => m.ProductName);
+        columns.AddFor(m => m.UnitPrice);
+        columns.AddFor(m => m.UnitsInStock);
+    })
+    .Paging(p => p.PageSize(10))
+    .Pager(p => p
+        .ShowPageSizeSelector(true)
+        .AllowedPageSizes(new[] { 5, 10, 20 })
+        .ShowInfo(true)
+    )
+)

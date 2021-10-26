@@ -1,0 +1,220 @@
+﻿@*@model List<Users>
+@{
+    ViewData["Title"] = "Devextreme";
+}
+<h1>@ViewData["Title"]</h1>
+
+
+@(Html.DevExtreme().DataGrid()
+    .ID("gridContainer")
+    .DataSource(d => d
+        .OData()
+        .Url("https://js.devexpress.com/Demos/SalesViewer/odata/DaySaleDtoes")
+        .Key("Id")
+        .BeforeSend(@<text>
+            function(request) {
+                request.params.startDate = "2020-05-10";
+                request.params.endDate = "2020-05-15";
+            }
+        </text>)
+    )
+    .RemoteOperations(false)
+    .AllowColumnReordering(true)
+    .RowAlternationEnabled(true)
+    .ShowBorders(true)
+    .OnContentReady("contentReady")
+    .Paging(p => p.PageSize(10))
+    .Pager(p => p
+        .ShowPageSizeSelector(true)
+        .AllowedPageSizes(new[] { 10, 25, 50, 100 })
+    )
+    .SearchPanel(s => s
+        .Visible(true)
+        .HighlightCaseSensitive(true)
+    )
+    .GroupPanel(g => g.Visible(true))
+    .Grouping(g => g.AutoExpandAll(false))
+    .Columns(columns => {
+        columns.Add()
+            .DataField("Product")
+            .GroupIndex(0);
+
+        columns.Add()
+            .DataField("Amount")
+            .Caption("Sale Amount")
+            .DataType(GridColumnDataType.Number)
+            .Format(Format.Currency)
+            .Alignment(HorizontalAlignment.Right);
+
+        columns.Add()
+            .DataField("Discount")
+            .Caption("Discount %")
+            .DataType(GridColumnDataType.Number)
+            .Format(Format.Percent)
+            .Alignment(HorizontalAlignment.Right)
+            .AllowGrouping(false)
+            .CssClass("bullet")
+            .CellTemplate(@<text>
+                @(Html.DevExtreme().Bullet()
+                    .Value(new JS("value * 100"))
+                    .Size(s => s
+                        .Height(35)
+                        .Width(150)
+                    )
+                    .Margin(m => m
+                        .Top(5)
+                        .Bottom(0)
+                        .Left(5)
+                    )
+                    .ShowTarget(false)
+                    .ShowZeroLevel(true)
+                    .StartScaleValue(0)
+                    .EndScaleValue(100)
+                    .Tooltip(t => t
+                        .Enabled(true)
+                        .Font(f => f.Size(18))
+                        .PaddingTopBottom(2)
+                        .CustomizeTooltip("customizeTooltip")
+                    )
+                )
+            </text>);
+
+        columns.Add()
+            .DataField("SaleDate")
+            .DataType(GridColumnDataType.Date);
+
+        columns.Add()
+            .DataField("Region")
+            .DataType(GridColumnDataType.String);
+
+        columns.Add()
+            .DataField("Sector")
+            .DataType(GridColumnDataType.String);
+
+        columns.Add()
+            .DataField("Channel")
+            .DataType(GridColumnDataType.String);
+
+        columns.Add()
+            .DataField("Customer")
+            .DataType(GridColumnDataType.String)
+            .Width(150);
+    })
+)
+
+<script>
+    var collapsed = false;
+    function contentReady(e) {
+        if (!collapsed) {
+            collapsed = true;
+            e.component.expandRow(["EnviroCare"]);
+        }
+    }
+
+    function customizeTooltip(pointsInfo) {
+        return { text: parseInt(pointsInfo.originalValue) + "%" };
+    }
+</script>*@
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<p>Use this page to detail your site's privacy policy.</p>
+    <div class="card card-custom gutter-b example example-compact">
+        <div class="card-header">
+            <h3 class="card-title"></h3>
+            <div class="example-tools justify-content-center">
+                <span class="example-toggle" data-toggle="tooltip" title="View code"></span>
+                <span class="example-copy" data-toggle="tooltip" title="Copy code"></span>
+            </div>
+        </div>
+    </div>
+    <div class="dx-viewport p-5">
+        <div class="demo-container">
+            <div id="gridContainer"></div>
+        </div>
+    </div>
+
+    @section PageRender
+    {
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write(decodeURIComponent('%3Cscript src="js/jquery.min.js"%3E%3C/script%3E'))</script>
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/20.1.4/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/20.1.4/css/dx.light.css" />
+        <script src="https://cdn3.devexpress.com/jslib/20.1.4/js/dx.all.js"></script>
+        <script type="text/javascript">
+            var viewModel=@Html.Raw(JsonConvert.SerializeObject(Model));
+        $("gridContainer").dxDataGrid({
+            dataSource: viewModel,
+            selection: {
+                mode: "multiple"
+            },
+            showBorders: true,
+            columnAutoWidth: true,
+            showBorders: true,
+            "export": {
+                enable: true,
+                allowExportSelectedData: true
+            },
+            paging: {
+                pageSize: 20
+            },
+            headerFilter: {
+                visible: true,
+                allowSearch: true
+            },
+            columns: [
+                {
+                    caption: "Id",
+                    dataField: "Id"
+                },
+                {
+                    caption: "Kullanıcı Adı",
+                    dataField: "UserName"
+                },
+                {
+                    caption: "Kayıt Tarihi",
+                    dataType: 'date',
+                    format: "dd/MM/yyyy HH:mm",
+                    dataField: "CreateDate"
+                }
+            ]
+        });
+        </script>
+
+
+    }*@
