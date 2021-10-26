@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gfD+gqBparLQlZXwadXZ0kiza94XICfQjvFWQf+tPEEhEmis6FItrsNqaeMXEXoTBDNcbXReTvyBA48wAdgZew==",
+  "dgSpecHash": "DoBi4ozsfgNc6UdM60e/P3qpOxyQVc7yAywvL5QkR39on2VvGo0T7jR5a3E7dI3/kkc0UUZ1y1NNh7/gt1juxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\DevExtremeAspNetCoreApp1\\DevExtremeAspNetCoreApp1.csproj",
+  "projectFilePath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\DevExtremeAspNetCoreApp1\\DevExtremeAspNetCoreApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M3ki\\.nuget\\packages\\buildbundlerminifier\\2.9.406\\buildbundlerminifier.2.9.406.nupkg.sha512",
     "C:\\Users\\M3ki\\.nuget\\packages\\devextreme.aspnet.core\\21.1.6\\devextreme.aspnet.core.21.1.6.nupkg.sha512",

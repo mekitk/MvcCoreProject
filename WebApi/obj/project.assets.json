@@ -9866,14 +9866,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\M3ki\\source\\repos\\Northwind\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\M3ki\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\WebApi\\obj\\",
+      "outputPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\M3ki\\source\\repos\\Northwind\\NuGet.Config",
+        "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\NuGet.Config",
         "C:\\Users\\M3ki\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9889,11 +9889,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Bll\\Northwind.Bll.csproj": {
-              "projectPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Bll\\Northwind.Bll.csproj"
+            "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Bll\\Northwind.Bll.csproj": {
+              "projectPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Bll\\Northwind.Bll.csproj"
             },
-            "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Entities\\Northwind.Entities.csproj": {
-              "projectPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Entities\\Northwind.Entities.csproj"
+            "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Entities\\Northwind.Entities.csproj": {
+              "projectPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Entities\\Northwind.Entities.csproj"
             }
           }
         }

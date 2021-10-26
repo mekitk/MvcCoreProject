@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GQz/arVquPdnPFg9o4DO8DwFHIqDvLKVlXnz8B0KPaDZXbSEFNqIsg0nar2106JeXih2umHRvMzNT++RozQARw==",
+  "dgSpecHash": "jBLE9H4fqJeL6Tcgas4lZ9ILLc/5j799iiyyBOJXKd4iWyfcC6mquhpgEgMNRvCd6TjxJnPRBEqLR6BJjoLZPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\NorthwindCore\\NorthwindCore.csproj",
+  "projectFilePath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\NorthwindCore\\NorthwindCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M3ki\\.nuget\\packages\\devextreme.aspnet.core\\21.1.6\\devextreme.aspnet.core.21.1.6.nupkg.sha512",
     "C:\\Users\\M3ki\\.nuget\\packages\\devextreme.aspnet.data\\2.0.0\\devextreme.aspnet.data.2.0.0.nupkg.sha512",

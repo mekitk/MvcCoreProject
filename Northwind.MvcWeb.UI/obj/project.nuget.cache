@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d6UPddOxY4C8zrqDDMHr9qEG8RUuexatzFDe+HLVx76SlikTXhA1YSyJilEbalwc8Zfc+pCmHY29gkIjg7RJVg==",
+  "dgSpecHash": "3ENQDm1RvpKWQvEiXAFJE+kSdjFKuO+e141FcFc4OzDla9Xkwf/J7VgVA70ufdfJt8/eclr68jAPqnDCd1QzUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.MvcWeb.UI\\Northwind.MvcWeb.UI.csproj",
+  "projectFilePath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.MvcWeb.UI\\Northwind.MvcWeb.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M3ki\\.nuget\\packages\\cldrjs\\0.4.4\\cldrjs.0.4.4.nupkg.sha512",
     "C:\\Users\\M3ki\\.nuget\\packages\\devexpress.dotnet.web.projecttemplates\\21.1.6\\devexpress.dotnet.web.projecttemplates.21.1.6.nupkg.sha512",

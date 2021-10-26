@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\M3ki\\source\\repos\\Northwind\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Bll\\Northwind.Bll.csproj": {
+    "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Bll\\Northwind.Bll.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Bll\\Northwind.Bll.csproj",
+        "projectUniqueName": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Bll\\Northwind.Bll.csproj",
         "projectName": "Northwind.Bll",
-        "projectPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Bll\\Northwind.Bll.csproj",
+        "projectPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Bll\\Northwind.Bll.csproj",
         "packagesPath": "C:\\Users\\M3ki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Bll\\obj\\",
+        "outputPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Bll\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\M3ki\\source\\repos\\Northwind\\NuGet.Config",
+          "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\NuGet.Config",
           "C:\\Users\\M3ki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,8 +30,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Dal\\Northwind.Dal.csproj": {
-                "projectPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Dal\\Northwind.Dal.csproj"
+              "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Dal\\Northwind.Dal.csproj": {
+                "projectPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Dal\\Northwind.Dal.csproj"
               }
             }
           }
@@ -94,17 +94,17 @@
         }
       }
     },
-    "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Dal\\Northwind.Dal.csproj": {
+    "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Dal\\Northwind.Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Dal\\Northwind.Dal.csproj",
+        "projectUniqueName": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Dal\\Northwind.Dal.csproj",
         "projectName": "Northwind.Dal",
-        "projectPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Dal\\Northwind.Dal.csproj",
+        "projectPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Dal\\Northwind.Dal.csproj",
         "packagesPath": "C:\\Users\\M3ki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Dal\\obj\\",
+        "outputPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Dal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\M3ki\\source\\repos\\Northwind\\NuGet.Config",
+          "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\NuGet.Config",
           "C:\\Users\\M3ki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -120,11 +120,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Entities\\Northwind.Entities.csproj": {
-                "projectPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Entities\\Northwind.Entities.csproj"
+              "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Entities\\Northwind.Entities.csproj": {
+                "projectPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Entities\\Northwind.Entities.csproj"
               },
-              "C:\\Users\\M3ki\\source\\repos\\Northwind\\NorthwindCore\\NorthwindCore.csproj": {
-                "projectPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\NorthwindCore\\NorthwindCore.csproj"
+              "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\NorthwindCore\\NorthwindCore.csproj": {
+                "projectPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\NorthwindCore\\NorthwindCore.csproj"
               }
             }
           }
@@ -189,17 +189,17 @@
         }
       }
     },
-    "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Entities\\Northwind.Entities.csproj": {
+    "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Entities\\Northwind.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Entities\\Northwind.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Entities\\Northwind.Entities.csproj",
         "projectName": "Northwind.Entities",
-        "projectPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Entities\\Northwind.Entities.csproj",
+        "projectPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Entities\\Northwind.Entities.csproj",
         "packagesPath": "C:\\Users\\M3ki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Entities\\obj\\",
+        "outputPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\M3ki\\source\\repos\\Northwind\\NuGet.Config",
+          "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\NuGet.Config",
           "C:\\Users\\M3ki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -215,8 +215,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\M3ki\\source\\repos\\Northwind\\NorthwindCore\\NorthwindCore.csproj": {
-                "projectPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\NorthwindCore\\NorthwindCore.csproj"
+              "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\NorthwindCore\\NorthwindCore.csproj": {
+                "projectPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\NorthwindCore\\NorthwindCore.csproj"
               }
             }
           }
@@ -271,17 +271,17 @@
         }
       }
     },
-    "C:\\Users\\M3ki\\source\\repos\\Northwind\\NorthwindCore\\NorthwindCore.csproj": {
+    "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\NorthwindCore\\NorthwindCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\M3ki\\source\\repos\\Northwind\\NorthwindCore\\NorthwindCore.csproj",
+        "projectUniqueName": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\NorthwindCore\\NorthwindCore.csproj",
         "projectName": "NorthwindCore",
-        "projectPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\NorthwindCore\\NorthwindCore.csproj",
+        "projectPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\NorthwindCore\\NorthwindCore.csproj",
         "packagesPath": "C:\\Users\\M3ki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\NorthwindCore\\obj\\",
+        "outputPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\NorthwindCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\M3ki\\source\\repos\\Northwind\\NuGet.Config",
+          "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\NuGet.Config",
           "C:\\Users\\M3ki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -349,17 +349,17 @@
         }
       }
     },
-    "C:\\Users\\M3ki\\source\\repos\\Northwind\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\M3ki\\source\\repos\\Northwind\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\M3ki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\M3ki\\source\\repos\\Northwind\\NuGet.Config",
+          "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\NuGet.Config",
           "C:\\Users\\M3ki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -375,11 +375,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Bll\\Northwind.Bll.csproj": {
-                "projectPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Bll\\Northwind.Bll.csproj"
+              "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Bll\\Northwind.Bll.csproj": {
+                "projectPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Bll\\Northwind.Bll.csproj"
               },
-              "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Entities\\Northwind.Entities.csproj": {
-                "projectPath": "C:\\Users\\M3ki\\source\\repos\\Northwind\\Northwind.Entities\\Northwind.Entities.csproj"
+              "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Entities\\Northwind.Entities.csproj": {
+                "projectPath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\Northwind.Entities\\Northwind.Entities.csproj"
               }
             }
           }
