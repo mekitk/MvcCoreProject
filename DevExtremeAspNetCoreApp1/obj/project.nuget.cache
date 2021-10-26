@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DoBi4ozsfgNc6UdM60e/P3qpOxyQVc7yAywvL5QkR39on2VvGo0T7jR5a3E7dI3/kkc0UUZ1y1NNh7/gt1juxA==",
+  "dgSpecHash": "WZUu2JxTc4mkid/E1A97NYqADAGDY8bPj8OjpF+q41F2kdgLVcFrd04YepI7GwRYVmbPZvICG+Py0XDrSHT+Vg==",
   "success": true,
   "projectFilePath": "C:\\Users\\M3ki\\Documents\\GitHub\\MvcCoreProject\\DevExtremeAspNetCoreApp1\\DevExtremeAspNetCoreApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M3ki\\.nuget\\packages\\buildbundlerminifier\\2.9.406\\buildbundlerminifier.2.9.406.nupkg.sha512",
     "C:\\Users\\M3ki\\.nuget\\packages\\devextreme.aspnet.core\\21.1.6\\devextreme.aspnet.core.21.1.6.nupkg.sha512",
-    "C:\\Users\\M3ki\\.nuget\\packages\\devextreme.aspnet.data\\2.8.2\\devextreme.aspnet.data.2.8.2.nupkg.sha512",
+    "C:\\Users\\M3ki\\.nuget\\packages\\devextreme.aspnet.data\\2.8.6\\devextreme.aspnet.data.2.8.6.nupkg.sha512",
     "C:\\Users\\M3ki\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\M3ki\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.0.0\\microsoft.aspnetcore.antiforgery.2.0.0.nupkg.sha512",
     "C:\\Users\\M3ki\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
